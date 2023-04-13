@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZandraStephens Furnitures</title>
+    <link rel="stylesheet" href="Furniture.css">
+    <script src="https://kit.fontawesome.com/3cf324a843.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"> <img src="./furimg/logofur.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-square-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="collections.html">COLLECTIONS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+        <h1>About Us</h1>
+</section>
+
+<!-- About Us content -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We Are One of the World's Leading Furniture Company</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quasi nobis necessitatibus vero inventore nulla quod ea aspernatur rerum, magnam illum quia. Fugiat ad maxime officia optio unde, accusamus labore?</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+    
+        <div class="about-col">
+            <img src="./furimg/yellow.jpg">
+                  
+        </div>
+    </div>
+</section>
+
+
+<section class="footer">
+    <h4>Socials</h4>
+    <p>You can reach us on any of our social media platforms</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Furnitures are made with <i class="fa fa-heart-o"></i> by Zandra Stephens</p>
+</section>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>
+</body>
+</html>

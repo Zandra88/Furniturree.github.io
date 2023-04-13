@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZandraStephens Furnitures</title>
+    <link rel="stylesheet" href="Furniture.css">
+    <script src="https://kit.fontawesome.com/3cf324a843.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"> <img src="./furimg/logofur.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-square-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="collections.html">COLLECTIONS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+        <h1>Collections</h1>
+</section>
+
+<section  class="collection">
+    <h1>Our Collections</h1>
+    <p>We have varieties of designs to suit all your spaces</p>
+
+    <div class="row">
+        <div class="collection-col">
+            <img src="./furimg/office.jpg">
+            <div class="layer">
+                <h3>Living Set</h3>
+            </div>
+        </div>
+
+        <div class="collection-col">
+            <img src="./furimg/dinnn.jpg">
+            <div class="layer">
+                <h3>Dinning Set</h3>
+            </div>
+        </div>
+
+        <div class="collection-col">
+            <img src="./furimg/relax.jpg">
+            <div class="layer">
+                <h3>Lightings</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="designs">
+    <h1>Designs</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia expedita ipsa ullam voluptatum eum vitae dolore quam distinctio aliquid saepe ipsam numquam exercitationem ea quaerat consequuntur, obcaecati molestias? Quibusdam, explicabo?</p>
+
+    <div class="row">
+        <div class="designs-col">
+            <img src="./furimg/contemporary.jpg">
+            <h3>Contemporary Furniture Designs</h3>
+            <p>It is characterised by solid, sleek lines, neutral colors and various materials such as metal and glass. Also it has a modern,clutter-free and sophisticated feel.</p> 
+        </div>
+    
+        <div class="designs-col">
+                <img src="./furimg/Rustic.jpg">
+                <h3>Rustic Furniture Designs</h3>
+                <p>It is characterised by its use of natural materials, by the use of wood, linen and cotton. It also seeks to bring a sense of warmth and coziness to a room</p>  
+            </div>
+
+            <div class="designs-col">
+                    <img src="./furimg/Retro.jpg">
+                    <h3>Retro Furniture Designs</h3>
+                    <p>It's a modern design that has elements that seeks to imitate the fashion trends of the past. It tends to incoporate colorful design elements from pop color to create a whimsical feel.</p>     
+                </div>
+    </div>
+</section>
+
+
+
+<!-- The facilities Section -->
+<section class="Facilities">
+    <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, velit blanditiis! Inventore officiis laborum esse, modi magnam, quo ab magni est dicta maiores tempore veniam suscipit, distinctio impedit natus beatae.</p>
+        
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./furimg/showroom.jpg">
+                <h3>State of the Art Showroom</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa quaerat veniam odit vel eaque, quod ratione sit impedit ipsum autem doloribus, a suscipit ducimus deserunt recusandae quae in debitis facere!</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="./furimg/workshop.jpg">
+                <h3>Standard Wood Workshop</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa quaerat veniam odit vel eaque, quod ratione sit impedit ipsum autem doloribus, a suscipit ducimus deserunt recusandae quae in debitis facere!</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="./furimg/electrical.jpg" >
+                <h3>Electrical Workshop</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa quaerat veniam odit vel eaque, quod ratione sit impedit ipsum autem doloribus, a suscipit ducimus deserunt recusandae quae in debitis facere!</p>
+            </div>
+        </div>
+</section>
+
+<section class="footer">
+    <h4>Socials</h4>
+    <p>You can reach us on any of our social media platforms</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Furnitures are made with <i class="fa fa-heart-o"></i> by Zandra Stephens</p>
+</section>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>
+</body>
+</html>
+
